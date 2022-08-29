@@ -1,13 +1,13 @@
 {
-  "name": "next-shopify-storefront",
+  "name": "shopify-storefront",
   "description": "Next Shopify PWA Storefront",
-  "repository": "https://github.com/maxvien/next-shopify-storefront.git",
+  "repository": "git@github.com:fredcarterwolf/shopify-react-nextjs.git",
   "version": "2.0.0",
   "license": "MIT",
   "author": {
     "name": "Vien Dinh",
-    "email": "maxvien@gmail.com",
-    "url": "https://github.com/maxvien"
+    "email": "fredcarterwolf@gmail.com",
+    "url": "https://github.com/fredcarterwolf"
   },
   "scripts": {
     "dev": "nps -s dev",

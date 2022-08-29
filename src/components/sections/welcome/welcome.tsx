@@ -31,7 +31,7 @@ export const Welcome: React.FC = () => {
             variant="contained"
             color="inherit"
             target="_blank"
-            href="https://github.com/maxvien/next-shopify-storefront"
+            href="git@github.com:fredcarterwolf/shopify-react-nextjs.git"
           >
             Get Source Code
           </Button>
