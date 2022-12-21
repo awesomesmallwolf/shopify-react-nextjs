@@ -18,8 +18,7 @@ These are my experience when I have been working on this project:
 - Using [GraphQL Request](https://www.npmjs.com/package/graphql-request) to Interact with Shopify Storefront GraphQL API.
 - Using [GraphQL Code Generator](https://www.graphql-code-generator.com/) to Generate TypeScript GraphQL Clients.
 - Using [ESlint](https://eslint.org/), [Prettier](https://prettier.io/) to Follow Next.js Best Practices.
-
-If you like this project, hit the **STAR** button to bookmark it ⭐️
+- Using [PlanetScale](https://planetscale.com/) to scale the DB.
 
 ## Installation
 
@@ -91,3 +90,4 @@ To speed up your productivity, you can install these extensions:
 - [Apollo GraphQL](https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [Cloudflare](https://www.cloudflare.com/)
