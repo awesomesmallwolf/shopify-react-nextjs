@@ -18,7 +18,6 @@ Page.getInitialProps = async (): Promise<Props> => {
     initialData: { pages: [firstPage], pageParams: [null] },
   };
 };
-
 export default function Page({ initialData }: Props) {
   const collectionList = useInfiniteQuery(
     COLLECTION_LIST_QUERY,
@@ -32,7 +31,6 @@ export default function Page({ initialData }: Props) {
       },
     }
   );
-
   return (
     <DefaultLayout>
       <NextSeo title="Collections" description="All Collections from Next Shopify Storefront" />
