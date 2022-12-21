@@ -14,7 +14,6 @@ export namespace CollectionService {
     };
     products: ProductService.List;
   }
-
   export async function getSingle(handle: string, productsAfter?: string): Promise<SingleCollection> {
     const { collectionByHandle } = await ShopifyService.getCollectionSingle({ handle, productsAfter });
 
@@ -32,7 +31,6 @@ export namespace CollectionService {
 
     return singleCollection;
   }
-
   export interface Collection {
     id: string;
     handle: string;
@@ -44,12 +42,10 @@ export namespace CollectionService {
       alt: string;
     };
   }
-
   export interface CollectionList {
     collections: Merge<Collection, { cursor: string }>[];
     pageInfo: GetCollectionListQuery['collections']['pageInfo'];
   }
-
   export async function getList(variables?: GetCollectionListQueryVariables): Promise<CollectionList> {
     const {
       collections: { edges, pageInfo },

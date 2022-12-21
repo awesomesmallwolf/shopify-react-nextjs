@@ -15,12 +15,10 @@ export default function Page() {
   return (
     <DefaultLayout query={cart}>
       <NextSeo title="Cart" description="Your Shopping Cart" />
-
       {(() => {
         if (cart.data?.items.length) {
           return <Cart cart={cart.data} />;
         }
-
         if (cart.isSuccess) {
           return (
             <Alert
@@ -38,7 +36,6 @@ export default function Page() {
             </Alert>
           );
         }
-
         return '';
       })()}
     </DefaultLayout>
